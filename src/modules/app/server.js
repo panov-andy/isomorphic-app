@@ -9,7 +9,7 @@ import {matchPath} from 'react-router-dom'
 import {StaticRouter} from 'react-router'
 import {Provider} from 'react-redux';
 import Store from './store';
-import App from './App';
+import App from './app';
 import routes from './routes';
 
 const indexHtml = fs.readFileSync(path.resolve(__dirname, 'client/index.html'), 'utf8');
